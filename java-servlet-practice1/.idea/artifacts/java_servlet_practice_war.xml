@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="java-servlet-practice:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>java-servlet-practice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="java-servlet-practice-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="java-servlet-practice:war exploded" />
+    </root>
+  </artifact>
+</component>
