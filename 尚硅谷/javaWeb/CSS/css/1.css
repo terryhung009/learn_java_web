@@ -1,0 +1,21 @@
+/* 被style標籤包圍的的範圍是CSS環境，可以寫CSS代碼 */
+    /* 標籤樣式 */
+    p{
+      color:red;
+    }
+    /* 類樣式 */
+    .f20{
+      font-size: 20px;
+    }
+    /* ID樣式 */
+    #p4{
+      background-color: pink;
+      font-size: 24px;
+      font-weight: bolder;
+      font-style: italic;
+    }
+    /* 組合樣式 */
+    div .f32{
+      font-size: 32px;
+      font-weight: 100;
+    }
